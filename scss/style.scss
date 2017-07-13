@@ -165,11 +165,13 @@ header.jumbotron h1 {
 
 /* note featureSection */
 
-.feature>i.fa {
-    font-size: 40px;
-    display: block;
+.feature>img {
+    width: 120px;
+    height: 120px;
     text-align: center;
     color: #253746;
+    display: block;
+    margin: auto;
 }
 
 .feature,
@@ -185,12 +187,20 @@ header.jumbotron h1 {
     color: #de1ac0;
 }
 
+.secondary-feature>img {
+    display: block;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+}
+
 .secondary-feature>h5 {
     text-align: center;
 }
 
 .feature>h3 {
     text-align: center;
+    font-size: 15px;
 }
 
 
